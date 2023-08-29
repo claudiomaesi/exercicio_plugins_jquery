@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-color: #f3f0f0;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: #04070f;
+    padding-top: 16px;
+    color: #cdcbcb;
+}
+
+header > .container,
+footer > .container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+section {
+    padding: 48px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #474a51;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #04070f;
+    color: #cdcbcb;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color:#474a51;
+}
+
+.form-campo {
+    margin-bottom: 16px;    
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+    color: #474a51;
+}
+
+.form-campo input {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+form {
+    max-width: 360px;
+}
+
+form button {
+    max-width: 120px;
+}
+
+footer .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nome-error,
+#email-error,
+#telefone-error,
+#cpf-error,
+#endereco-error,
+#cep-error {
+    font-size: 10px;
+    font-style: italic;
+    color: red;
+}
